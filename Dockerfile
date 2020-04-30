@@ -17,8 +17,7 @@ RUN curl -L https://github.com/opencv/opencv_contrib/archive/4.1.0.zip -o opencv
 RUN unzip opencv-4.1.0.zip 
 RUN unzip opencv_contrib-4.1.0.zip 
 RUN cd opencv-4.1.0/
-
-RUN cmake     -D WITH_CUDA=ON \
+         && cmake     -D WITH_CUDA=ON \
         -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib-4.1.0/modules \
         -D WITH_GSTREAMER=ON \
         -D WITH_LIBV4L=ON \
@@ -28,9 +27,8 @@ RUN cmake     -D WITH_CUDA=ON \
         -D BUILD_PERF_TESTS=OFF \
         -D BUILD_EXAMPLES=OFF \
         -D CMAKE_BUILD_TYPE=RELEASE \
-        -D CMAKE_INSTALL_PREFIX=/usr/local ..
-
-RUN make -j4
-RUN sudo make install
+        -D CMAKE_INSTALL_PREFIX=/usr/local .. \
+        && make -j4 \
+        && make install
 
 CMD ["/bin/bash"]
