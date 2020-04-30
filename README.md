@@ -5,10 +5,16 @@
 
 - https://github.com/NVIDIA/nvidia-docker/wiki/NVIDIA-Container-Runtime-on-Jetson
 
-Download Nvidia SDK Manager
+Already installed with the Jetson Nano Image
 
-https://developer.nvidia.com/nvidia-sdk-manager
+```
+$ sudo dpkg --get-selections | grep nvidia
+libnvidia-container-tools			install
+libnvidia-container0:arm64			install
+nvidia-container-runtime			install
+nvidia-container-runtime-hook		install
+nvidia-docker2				install
 
-sudo apt install ./sdkmanager-[version].[build#].deb 
-
-sdkmanager
+$ sudo docker info | grep nvidia
++ Runtimes: nvidia runc
+```
