@@ -8,3 +8,7 @@
 Download Nvidia SDK Manager
 
 https://developer.nvidia.com/nvidia-sdk-manager
+
+sudo apt install ./sdkmanager-[version].[build#].deb 
+
+sdkmanager
