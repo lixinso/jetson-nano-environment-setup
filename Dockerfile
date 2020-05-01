@@ -47,6 +47,9 @@ RUN apt install -y vim
 RUN apt install -y pandoc
 RUN apt install -y pandoc-citeproc
 
+RUN pip3 install --upgrade setuptools pip
+
+
 RUN mkdir /myworkdir
 VOLUME ["/myworkdir"]
 WORKDIR /myworkdir
