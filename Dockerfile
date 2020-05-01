@@ -38,4 +38,8 @@ RUN chmod -R 777 /tmp/install_tzdata.sh && /tmp/install_tzdata.sh
 
 RUN apt install -y python3-opencv
 
+RUN mkdir /myworkdir
+VOLUME ["/myworkdir"]
+WORKDIR /myworkdir
+
 CMD ["/bin/bash"]
