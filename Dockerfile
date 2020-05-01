@@ -38,6 +38,10 @@ RUN chmod -R 777 /tmp/install_tzdata.sh && /tmp/install_tzdata.sh
 
 RUN apt install -y python3-opencv
 
+RUN apt install -y git
+RUN apt install -y python3-dev
+RUN apt install -y python3-pip
+
 RUN mkdir /myworkdir
 VOLUME ["/myworkdir"]
 WORKDIR /myworkdir
