@@ -33,6 +33,7 @@ Edimax EW-7811Un (USB Wi-Fi wireless dongle)
 Intel 8265NGW (M.2 Key-E Wi-Fi/BT wireless card)
 Geekworm Dual Band Wireless USB 3.0 Wi-Fi Adapter (USB3 Wi-Fi dongle and SMA antenna)
 
+**This one seems working** ==>
 Problem solved. It is due to a buggy driver. Try the following command and wifi seems to work well without disconnecting. echo "blacklist rtl8192cu" | sudo tee -a /etc/modprobe.d/blacklist.conf
 
 
