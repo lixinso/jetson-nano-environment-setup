@@ -42,6 +42,11 @@ RUN apt install -y git
 RUN apt install -y python3-dev
 RUN apt install -y python3-pip
 
+RUN pip3 install more-itertools
+RUN apt install -y vim 
+RUN apt install -y pandoc
+RUN apt install -y pandoc-citeproc
+
 RUN mkdir /myworkdir
 VOLUME ["/myworkdir"]
 WORKDIR /myworkdir
