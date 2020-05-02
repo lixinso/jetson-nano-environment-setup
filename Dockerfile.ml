@@ -15,4 +15,4 @@ RUN mkdir /myworkdir
 VOLUME ["/myworkdir"]
 WORKDIR /myworkdir
 
-CMD ["/bin/bash"]
+#CMD ["/bin/bash"]
