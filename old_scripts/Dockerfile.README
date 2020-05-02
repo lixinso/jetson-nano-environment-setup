@@ -1,0 +1,4 @@
+# https://pysource.com/2019/08/26/install-opencv-4-1-on-nvidia-jetson-nano/
+
+$ sudo docker build -t devicequery .
+$ sudo docker run -it --runtime nvidia devicequery
