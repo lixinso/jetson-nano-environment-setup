@@ -5,10 +5,11 @@ RUN apt update
 RUN apt upgrade -y
 RUN apt install -y vim 
 RUN apt install -y telnet
-#RUN apt install -y pandoc
-#RUN apt install -y pandoc-citeproc
-#
+RUN apt install -y pandoc
+RUN apt install -y pandoc-citeproc
+
 #RUN pip3 install --upgrade setuptools pip
+
 
 
 RUN mkdir /myworkdir
