@@ -44,3 +44,25 @@ Edimax worked out of the box. Drivers are already in image, so no need to instal
 PyTorch
 https://forums.developer.nvidia.com/t/pytorch-for-jetson-nano-version-1-5-0-now-available/72048
 
+
+
+# Ref
+
+https://developer.nvidia.com/embedded/downloads#?search=cudnn
+
+https://developer.nvidia.com/embedded/jetpack
+
+https://developer.nvidia.com/embedded/twodaystoademo
+https://github.com/dusty-nv/jetson-inference#system-setup
+
+
+https://ngc.nvidia.com/catalog/containers?orderBy=modifiedDESC&pageNumber=0&query=%20label%3A%22Jetson%22&quickFilter=containers&filters=
+
+
+https://ngc.nvidia.com/catalog/containers/nvidia:l4t-pytorch
+https://ngc.nvidia.com/catalog/containers/nvidia:l4t-ml
+https://ngc.nvidia.com/catalog/containers/nvidia:l4t-tensorflow
+
+
+docker pull nvcr.io/nvidia/l4t-ml:r32.4.2-py3
+sudo docker run -it --rm --runtime nvidia --network host nvcr.io/nvidia/l4t-ml:r32.4.2-py3
