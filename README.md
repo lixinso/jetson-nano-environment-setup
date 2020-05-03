@@ -48,6 +48,14 @@ https://forums.developer.nvidia.com/t/pytorch-for-jetson-nano-version-1-5-0-now-
 https://medium.com/@bharathsudharsan023/jetson-nano-remote-vnc-access-d1e71c82492b
 
 
+- Monitor GPU Memory
+
+```
+https://pypi.org/project/jetson-stats/
+sudo pip3 install jetson-stats
+jtop
+```
+
 # Ref
 
 https://developer.nvidia.com/embedded/downloads#?search=cudnn
