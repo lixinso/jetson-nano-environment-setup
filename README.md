@@ -3,7 +3,8 @@
 ## Hardware
 
 - Board
-- WIFI
+- WIFI ![EDUP Mini WiFi Dongle for pcDuino v1/Raspberry Pi
+](https://www.amazon.com/gp/product/B00JXP7QAA/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)  :Not the recommended one
 - SD Card
 - Battery
 
