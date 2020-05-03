@@ -56,6 +56,17 @@ sudo pip3 install jetson-stats
 jtop
 ```
 
+## + Swap
+
+```
+https://www.jetsonhacks.com/2019/11/28/jetson-nano-even-more-swap/
+
+$ zramctl
+$ git clone https://github.com/JetsonHacksNano/resizeSwapMemory
+$ cd resizeSwapMemory
+$ ./setSwapMemorySize.sh -g 8
+```
+
 # Ref
 
 https://developer.nvidia.com/embedded/downloads#?search=cudnn
