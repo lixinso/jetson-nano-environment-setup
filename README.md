@@ -1,5 +1,14 @@
 # jetson-nano-environment-setup
 
+## Hardware
+
+- Board
+- WIFI
+- SD Card
+- Battery
+
+
+
 
 - https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit
 
