@@ -1,5 +1,16 @@
 # jetson-nano-environment-setup
 
+## Hardware
+
+- Board
+- WIFI [EDUP Mini WiFi Dongle for pcDuino v1/Raspberry Pi
+](https://www.amazon.com/gp/product/B00JXP7QAA/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)  :Not the recommended one
+- SD Card [Samsung (MB-ME512GA/AM) 512GB 100MB/s (U3) MicroSDXC Evo Select Memory Card with Adapter
+](https://www.amazon.com/gp/product/B07MKSGZM6/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1)
+- Battery
+
+
+
 
 - https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit
 
@@ -54,6 +65,17 @@ https://medium.com/@bharathsudharsan023/jetson-nano-remote-vnc-access-d1e71c8249
 https://pypi.org/project/jetson-stats/
 sudo pip3 install jetson-stats
 jtop
+```
+
+## + Swap
+
+```
+https://www.jetsonhacks.com/2019/11/28/jetson-nano-even-more-swap/
+
+$ zramctl
+$ git clone https://github.com/JetsonHacksNano/resizeSwapMemory
+$ cd resizeSwapMemory
+$ ./setSwapMemorySize.sh -g 8
 ```
 
 # Ref
