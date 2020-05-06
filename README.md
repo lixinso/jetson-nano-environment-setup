@@ -55,9 +55,11 @@ Edimax worked out of the box. Drivers are already in image, so no need to instal
 
 
 PyTorch
+
 https://forums.developer.nvidia.com/t/pytorch-for-jetson-nano-version-1-5-0-now-available/72048
 
 - Jetson Nano Remote Desktop Share
+
 https://medium.com/@bharathsudharsan023/jetson-nano-remote-vnc-access-d1e71c82492b
 
 
