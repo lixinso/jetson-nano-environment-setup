@@ -95,8 +95,9 @@ https://ngc.nvidia.com/catalog/containers/nvidia:l4t-pytorch
 https://ngc.nvidia.com/catalog/containers/nvidia:l4t-ml
 https://ngc.nvidia.com/catalog/containers/nvidia:l4t-tensorflow
 
-
+```
 docker pull nvcr.io/nvidia/l4t-ml:r32.4.2-py3
 sudo docker run -it --rm --runtime nvidia --network host nvcr.io/nvidia/l4t-ml:r32.4.2-py3
+```
 
 https://gitlab.com/nvidia
